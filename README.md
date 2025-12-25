@@ -27,9 +27,32 @@ XXX
 
 ## How to review in 3 min
 
-1. Open XXX
-2. Open XXX
-3. Open XXX
+1. **Open** `preflight-checklist.md`  
+   Understand the purpose and goals of the checklist.
+   Make sure the expectations for consent, privacy, and harm reduction are clear.
+
+3. **Open** `checks/`  
+   Check the individual files for each evaluation criterion.
+   Review the rationale and the pass/fail criteria to ensure they’re well-defined.
+
+4. **Open** `sample-input.json`  
+   Verify the format and content of the fake interaction data to ensure it’s realistic and follows the expected structure.
+
+5. **Open** `sample-output-report.json`  
+   Review the example output format.
+   Check that it matches the expectations for reporting in the preflight checks.
+
+6. **Open** `run_preflight.py`  
+   Check the Python script.
+   Make sure it's clear and can run without issues.
+   Verify it produces the correct JSON report when using the sample data.
+
+8. **Run** the Python script:  
+   ```bash
+   python run_preflight.py sample-input.json
+   Ensure that it runs successfully and generates output.
+   Compare generated output with sample output to check for discrepancies.
+
 
 # EARCLE Preflight
 
