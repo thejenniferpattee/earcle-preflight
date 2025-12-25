@@ -3,7 +3,7 @@ Ethical AI Research and Compliance Layer middleware platform
 
 **What it is:**
 
-A data-only repo for EARCLE content: XXX
+Data-only repo for EARCLE content: the preflight spec, checks catalog, scoring, and example reports. 
 
 **What’s real vs planned:**
 
