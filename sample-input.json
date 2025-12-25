@@ -1,0 +1,33 @@
+{
+"session_id": "demo-session-001",
+"context": {
+"domain": "health_adjacent_screening",
+"audience": "college_students",
+"data_storage": {
+"stores_any_data": true,
+"retention_days": 30,
+"de_identified": true,
+"access_roles": ["research_team"]
+}
+},
+"consent": {
+"shown_before_sensitive_questions": true,
+"purpose": "Research study on acceptability of an AI-assisted ADHD screening experience.",
+"data_collected_summary": "Responses to screening items and acceptability questions. No name collected.",
+"retention_summary": "Data retained for 30 days then deleted.",
+"voluntary": true,
+"withdrawal_option": "You can stop at any time by closing the survey.",
+"contact": "[research@university.edu](mailto:research@university.edu)"
+},
+"flow": [
+{"type": "consent"},
+{"type": "screening_item", "sensitive": true},
+{"type": "screening_item", "sensitive": true},
+{"type": "psychoeducation", "sensitive": false}
+],
+"output_policy": {
+"diagnosis_claims": false,
+"uncertainty_language": true,
+"crisis_resources_available": true
+}
+}
