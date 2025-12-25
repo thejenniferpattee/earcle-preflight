@@ -1,0 +1,14 @@
+{
+"session_id": "demo-session-001",
+"overall_status": "pass_with_notes",
+"checks": [
+{"name": "consent", "status": "pass", "notes": "Consent appears before sensitive items and includes purpose and retention."},
+{"name": "data_minimization", "status": "pass", "notes": "No name collected; items limited to stated purpose."},
+{"name": "purpose_and_retention", "status": "pass", "notes": "Retention is concrete and deletion implied."},
+{"name": "medical_disclaimer", "status": "note", "notes": "Add explicit not-a-diagnosis language near results screen."},
+{"name": "uncertainty_and_limits", "status": "pass", "notes": "Uncertainty language enabled."},
+{"name": "harm_and_escalation", "status": "pass", "notes": "Crisis resources available if needed."},
+{"name": "privacy_and_security", "status": "pass", "notes": "De-identified storage and role-based access declared."},
+{"name": "auditability", "status": "note", "notes": "Define which events are logged and where logs are stored."}
+]
+}
